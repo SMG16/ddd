@@ -16,7 +16,7 @@ client.on('ready', function(){
         client.user.setGame(setGame[i],`http://www.twitch.tv/iXMiDo`);
     }, ms);
   console.log('---------------');
-  console.log('GaMerZ -Bot Is Online')
+  console.log('Bot Is Online')
   console.log('---------------')
 });
 
@@ -1273,4 +1273,4 @@ client.on("message", (message) => {
     }
     });
 
-client.login('tokeen');
+client.login(process.env.BOT_TOKEN);
